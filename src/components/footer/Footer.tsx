@@ -1,7 +1,5 @@
 'use client';
 
-import Link from 'next/link';
-import Image from 'next/image';
 import Logo from '../../assets/logo.png';
 import Facebook from '../../assets/facebook.png';
 import Linkedin from '../../assets/linkedin.png';
@@ -16,24 +14,24 @@ const Footer = () => {
             <div className="flex justify-around w-full max-w-7xl gap-5">
                 <div>
                     <div>
-                        <Image src={Logo} alt="logo company" />
+                        <img src={Logo} alt="logo company" />
                         <ul className="flex flex-row gap-3 pt-2">
                             <li>
-                                <Image src={Facebook} alt="facebook logo" />
+                                <img src={Facebook} alt="facebook logo" />
                             </li>
                             <li>
-                                <Image src={Linkedin} alt="linkedin logo" />
+                                <img src={Linkedin} alt="linkedin logo" />
                             </li>
                             <li>
-                                <Image src={Instagram} alt="instagram logo" />
+                                <img src={Instagram} alt="instagram logo" />
                             </li>
                             <li>
-                                <Image src={Youtube} alt="youtube logo" />
+                                <img src={Youtube} alt="youtube logo" />
                             </li>
                         </ul>
                     </div>
 
-                    <Image src={GPTW} alt="logo gptw" width={250} height={300} className="pt-4" />
+                    <img src={GPTW} alt="logo gptw" width={250} height={300} className="pt-4" />
                 </div>
 
                 <div>

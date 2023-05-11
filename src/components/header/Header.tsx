@@ -1,11 +1,7 @@
-'use client';
 
 import { useState } from 'react';
 import Logo from '../../assets/logo.png';
-import Image from 'next/image';
 import { FaBars } from 'react-icons/fa';
-import '../../globals.css'
-import './Header.css';
 
 const Header = () => {
     const [showMenu, setShowMenu] = useState(false);
@@ -16,7 +12,7 @@ const Header = () => {
 
     return (
         <header className="flex flex-row items-center justify-around pt-6 pb-4 bg-cinza">
-            <Image src={Logo} alt='logo company' className='logo' />
+            <img src={Logo} alt='logo company' className='logo' />
             <nav className="hidden md:flex md:flex-row">
                 <ul className="flex flex-row mt-4">
                     <li className="pr-6">

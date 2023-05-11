@@ -1,5 +1,3 @@
-'use client';
-
 import { useNavigate } from 'react-router-dom';
 import './Form.css'
 
@@ -8,11 +6,15 @@ const MyForm = () => {
     const navigate = useNavigate();
 
     const handleFormSubmit = (event: React.FormEvent<HTMLFormElement>) => {
+        if (typeof window !== 'undefined') {
           event.preventDefault();
           const form = event.currentTarget;
           const formData = new FormData(form);
           const data = Object.fromEntries(formData.entries());
+          if (typeof window !== 'undefined') {
           navigate('/checkout', { state: { formData: data } });
+          }
+        }
       };
       
 

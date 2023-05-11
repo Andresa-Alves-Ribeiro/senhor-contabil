@@ -1,12 +1,9 @@
-'use client';
-
 import { useState } from 'react';
-import { Button } from 'react-bootstrap';
 import { useLocation } from "react-router-dom";
 import MyModalConfirm from '../../components/confirm/MyModalConfirm';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css'
-
+import './Checkout.css'
 
 const Checkout = () =>{
     const [showModal, setShowModal] = useState(false);
