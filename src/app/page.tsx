@@ -1,8 +1,8 @@
 import Image from 'next/image'
 import Header from './components/header/Header'
-import MyForm from './components/form/Form'
+import MyForm from './pages/form/Form'
 import Footer from './components/footer/Footer'
-import Checkout from './components/checkout/Checkout'
+import Checkout from './pages/checkout/Checkout'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 export default function Home() {

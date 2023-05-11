@@ -1,3 +1,5 @@
+'use client';
+
 import Link from 'next/link';
 import Image from 'next/image';
 import Logo from '../../assets/logo.png';
@@ -8,7 +10,7 @@ import Youtube from '../../assets/youtube.png';
 import GPTW from '../../assets/selo-gptw.png';
 import './Footer.css';
 
-function Footer() {
+const Footer = () => {
     return (
         <footer className="flex flex-col items-center justify-center pt-12 pb-4 bg-cinza">
             <div className="flex justify-around w-full max-w-7xl gap-5">

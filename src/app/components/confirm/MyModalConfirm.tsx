@@ -1,3 +1,5 @@
+'use client';
+
 import { useState } from 'react';
 import { Modal, Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -7,7 +9,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 //tostify
 
-function MyModalConfirm({ show, onHide }: any) {
+const MyModalConfirm = ({ show, onHide }: any) => {
 
     const handleSaveChanges = () => {
         toast.success('Compra finalizada com sucesso!');

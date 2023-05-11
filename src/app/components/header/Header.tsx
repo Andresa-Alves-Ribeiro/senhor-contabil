@@ -1,4 +1,5 @@
-import Link from 'next/link';
+'use client';
+
 import { useState } from 'react';
 import Logo from '../../assets/logo.png';
 import Image from 'next/image';
@@ -6,7 +7,7 @@ import { FaBars } from 'react-icons/fa';
 import '../../globals.css'
 import './Header.css';
 
-function Header() {
+const Header = () => {
     const [showMenu, setShowMenu] = useState(false);
 
     function toggleMenu() {
