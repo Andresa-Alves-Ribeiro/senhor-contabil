@@ -7,18 +7,20 @@
  <a href="#-vitrine-dev">Vitrine Dev</a> •
  <a href="#-tecnologias">Tecnologias</a> •
  <a href="#-instalação">Instalações</a> •
- <a href="#-funcionalidades">Funcionalidades</a> •
  <a href="#-autor">Autor</a> • 
  <a href="#-licença">Licença</a>
 </p>
 
 &nbsp;
 
-*Desktop*
+*Versão Desktop*
+![web](https://github.com/Andresa-Alves-Ribeiro/senhor-contabil/assets/94997593/085a6d32-05a0-4f09-9024-a3632c9b90bf)
+![web2](https://github.com/Andresa-Alves-Ribeiro/senhor-contabil/assets/94997593/8a2a917a-7c82-42cf-b67a-8d43603cba00)
 
+*Versão Mobile*
+<br>
+![mobile](https://github.com/Andresa-Alves-Ribeiro/senhor-contabil/assets/94997593/551fe10e-61ae-4028-8392-2a756a0ee6df)
 
-
-*Mobile*
 
 &nbsp;
 <a id="-sobre-o-projeto"></a>
@@ -41,17 +43,17 @@ Possui as funcionalidades de:
 Estrutura do Projeto
 O projeto está organizado da seguinte forma:
 
-public: contém os arquivos estáticos do projeto, como o arquivo HTML principal.
-src: contém o código-fonte do projeto.
-assets: contém as imagens do projeto.
-components: contém os componentes React do projeto.
-Header.tsx: componente responsável pelo Cabeçalho.
-Form.tsx: componente responsável pelo formulário.
-Checkout.tsx: componente responsável pela confirmação dos dados pelo usuário.
-MyModalConfirm.tsx: componente responsável pelo modal de confirmação.
-Footer: componente responsável pelo Rodapé.
-App.tsx: componente principal do projeto, que renderiza os demais componentes.
-index.tsx: ponto de entrada do projeto, que renderiza o componente principal.
+- **public**: contém os arquivos estáticos do projeto, como o arquivo HTML principal.
+- **src**: contém o código-fonte do projeto.
+- **assets**: contém as imagens do projeto.
+- **components**: contém os componentes React do projeto.
+- **Header.tsx**: componente responsável pelo Cabeçalho.
+- **Form.tsx**: componente responsável pelo formulário.
+- **Checkout.tsx**: componente responsável pela confirmação dos dados pelo usuário.
+- **MyModalConfirm.tsx**: componente responsável pelo modal de confirmação.
+- **Footer**: componente responsável pelo Rodapé.
+- **App.tsx**: componente principal do projeto, que renderiza os demais componentes.
+- **index.tsx**: ponto de entrada do projeto, que renderiza o componente principal.
 
 &nbsp;
 
@@ -72,8 +74,8 @@ index.tsx: ponto de entrada do projeto, que renderiza o componente principal.
 
 | :placard: Vitrine.Dev |                                                                                                                                                    |
 | --------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| :sparkles: Nome       | **Senhor Contábil**                                                  |
-| :label: Tecnologias   | React, Next, Tailwindcss, CSS, JavaScript, TypeScript, Bootstrap, React DOM, Toastify |
+| :sparkles: Nome       | **Senhor Contábil** |
+| :label: Tecnologias   | React, Vite, Tailwindcss, CSS, JavaScript, TypeScript, Bootstrap, React DOM, Toastify |
 
 ---
 
@@ -82,7 +84,7 @@ index.tsx: ponto de entrada do projeto, que renderiza o componente principal.
 
 ## 🛠 Tecnologias
 
-As seguintes ferramentas foram usadas na construção do projeto
+As seguintes ferramentas foram usadas na construção do projeto:
 
 &nbsp;
 
@@ -92,7 +94,7 @@ As seguintes ferramentas foram usadas na construção do projeto
   <a href= "https://tailwindcss.com/"><img alt="Tailwind CSS badge" src="https://img.shields.io/static/v1?logoWidth=15&logoColor=06b6d4&logo=Tailwind CSS&label=Style&message=Tailwind CSS&color=06b6d4"></a>
   <a href= "https://www.javascript.com/"><img alt="JavaScript badge" src="https://img.shields.io/static/v1?logoWidth=15&logoColor=F7DF1E&logo=JavaScript&label=Language&message=JavaScript&color=F7DF1E"></a>
   <a href= "https://www.typescriptlang.org/"><img alt="TypeScript badge" src="https://img.shields.io/static/v1?logoWidth=15&logoColor=3178c6&logo=TypeScript&label=Language&message=TypeScript&color=3178c6"></a>
-  <a href= "https://nextjs.org/blog/next-13/"><img alt="Next badge" src="https://img.shields.io/static/v1?logoWidth=15&logoColor=339933&logo=next.js&label=Runtime Environment&message=Next&color=3139933"></a>
+  <a href= "https://vitejs.dev/guide/"><img alt="Vite badge" src="https://img.shields.io/static/v1?logoWidth=15&logoColor=339933&logo=vite&label=Runtime Environment&message=Vite&color=3139933"></a>
   <a href= "https://getbootstrap.com/"><img alt="Bootstrap badge" src="https://img.shields.io/static/v1?logoWidth=15&logoColor=61dafb&logo=bootstrap&label=Framework&message=Bootstrap&color=61dafb"></a>
   <a href= "https://reactrouter.com/"><img alt="React Router badge" src="https://img.shields.io/static/v1?logoWidth=15&logoColor=000020&logo=React-Router&label=React%20tool&message=Expo&color=000020"></a>
   <a href= "https://fkhadra.github.io/react-toastify/"><img alt="Toastify badge" src="https://img.shields.io/static/v1?logoWidth=15&logoColor=000000&logo=Toastify&label=Framework&message=Fastify&color=000000"></a>
@@ -101,16 +103,17 @@ As seguintes ferramentas foram usadas na construção do projeto
   <a href= "https://eslint.org/"><img alt="code standardization eslint" src="https://img.shields.io/static/v1?logoWidth=15&logoColor=4B32C3&logo=ESLint&label=Code Standardization&message=ESLint&color=4B32C3"></a>
 </p>
 
-*React*: biblioteca JavaScript para construção de interfaces de usuário.
-*React Bootstrap*: biblioteca de componentes visuais para React que implementa o design e estilo do Bootstrap.
-*TypeScript*: linguagem que adiciona tipagem estática ao JavaScript e fornece uma série de outras funcionalidades.
-*Next*: Next.js é um framework de desenvolvimento web em React que permite criar aplicativos de página única (SPAs) e aplicativos de página múltipla (MPAs) com facilidade. Ele fornece funcionalidades como renderização do lado do servidor, pré-renderização, roteamento, suporte a TypeScript e muito mais.
-*Tailwindcss*: É uma biblioteca CSS que permite criar layouts personalizados de maneira rápida e eficiente, usando classes pré-definidas que fornecem estilos pré-construídos.
-*CSS*: Cascading Style Sheets é uma linguagem usada para estilizar documentos HTML. Ela permite definir cores, fontes, layouts e outros estilos visuais em uma página web.
-*JavaScript*: É uma linguagem de programação usada para criar interatividade em sites e aplicativos web. Ele permite que os desenvolvedores criem funções personalizadas e interatividade do lado do cliente.
-*Bootstrap*: É uma biblioteca de design responsivo que fornece estilos CSS pré-construídos para criar layouts de página, botões, formulários, tabelas e outros elementos visuais comuns em sites e aplicativos web.
-*React DOM*: É uma biblioteca JavaScript usada para construir interfaces de usuário. Ele permite criar componentes reutilizáveis e gerenciar o estado de um aplicativo de maneira eficiente.
-*Toastify*: É uma biblioteca de notificações em JavaScript que pode ser facilmente integrada em aplicativos web React. Ele fornece uma variedade de estilos de notificação, animações e opções de personalização.
+
+- *React*: biblioteca JavaScript para construção de interfaces de usuário.
+- *React Bootstrap*: biblioteca de componentes visuais para React que implementa o design e estilo do Bootstrap.
+- *TypeScript*: linguagem que adiciona tipagem estática ao JavaScript e fornece uma série de outras funcionalidades.
+- *Vite*: Vite é um sistema de construção de projetos em JavaScript focado em alta performance, carregamento rápido e abordagem modular.
+- *Tailwindcss*: É uma biblioteca CSS que permite criar layouts personalizados de maneira rápida e eficiente, usando classes pré-definidas que fornecem estilos pré-construídos.
+- *CSS*: Cascading Style Sheets é uma linguagem usada para estilizar documentos HTML. Ela permite definir cores, fontes, layouts e outros estilos visuais em uma página web.
+- *JavaScript*: É uma linguagem de programação usada para criar interatividade em sites e aplicativos web. Ele permite que os desenvolvedores criem funções personalizadas e interatividade do lado do cliente.
+- *Bootstrap*: É uma biblioteca de design responsivo que fornece estilos CSS pré-construídos para criar layouts de página, botões, formulários, tabelas e outros elementos visuais comuns em sites e aplicativos web.
+- *React DOM*: É uma biblioteca JavaScript usada para construir interfaces de usuário. Ele permite criar componentes reutilizáveis e gerenciar o estado de um aplicativo de maneira eficiente.
+- *Toastify*: É uma biblioteca de notificações em JavaScript que pode ser facilmente integrada em aplicativos web React. Ele fornece uma variedade de estilos de notificação, animações e opções de personalização.
 
 ---
 
@@ -125,6 +128,7 @@ Para executar o projeto em sua máquina local, siga um dos seguintes passos:
 
 Acesse o deploy abaixo:
 
+https://senhor-contabil.vercel.app/
 
 OU
 
