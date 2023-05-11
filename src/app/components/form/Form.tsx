@@ -1,9 +1,5 @@
-'use client';
-
 import { useNavigate } from 'react-router-dom';
 import './Form.css'
-import Header from '../header/Header';
-import Footer from '../footer/Footer';
 
 function MyForm() {
     const navigate = useNavigate();
