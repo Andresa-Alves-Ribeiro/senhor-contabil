@@ -3,25 +3,48 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --azul: #142882;
+  --cereja: #c31e55;
+  --lima: #d2d737;
+  --cinza: #e4e3e5;
+  --cinza-claro: #f2f3f3;
+  --cinza_escuro: #434b56;
+  --verde: #04c377;
+  --white: #fff;
+  --texto: #5c6770;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('/fonts/PlayfairDisplay-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
+
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Playfair Display', serif;
+}
+
+button {
+  opacity: 1;
+}
+
+button:hover {
+  background-color: var(--azul);
+  color: var(--white);
+}
+
+footer {
+  color: var(--texto);
+  font-size: 18px;
+  font-weight: 500;
+}
+
+footer span {
+  font-weight: 700;
 }
