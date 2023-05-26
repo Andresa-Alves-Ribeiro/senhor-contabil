@@ -14,8 +14,8 @@
 &nbsp;
 
 *Versão Desktop*
-![web](https://github.com/Andresa-Alves-Ribeiro/senhor-contabil/assets/94997593/085a6d32-05a0-4f09-9024-a3632c9b90bf)
-![web2](https://github.com/Andresa-Alves-Ribeiro/senhor-contabil/assets/94997593/8a2a917a-7c82-42cf-b67a-8d43603cba00)
+![web](https://github.com/Andresa-Alves-Ribeiro/senhor-contabil/assets/94997593/395a9627-c78f-409e-8983-9f11ebb43867)
+![web2](https://github.com/Andresa-Alves-Ribeiro/senhor-contabil/assets/94997593/21d877a4-632d-4609-a769-a9454ddca09c)
 
 *Versão Mobile*
 <br>
